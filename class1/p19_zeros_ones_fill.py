@@ -1,0 +1,10 @@
+import tensorflow as tf
+#创建全为0的张量 tf.zeros(维度)
+a = tf.zeros([2, 3])
+#创建全为1的张量 tf.ones(维度)
+b = tf.ones(4)
+#创建全为指定值的张量 tf.fill(维度,指定值)
+c = tf.fill([2, 2], 9)
+print("a:", a)
+print("b:", b)
+print("c:", c)
